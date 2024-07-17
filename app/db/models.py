@@ -1,9 +1,11 @@
 import os
+from dotenv import load_dotenv
 
 from sqlalchemy import ForeignKey, String, BigInteger
 from sqlalchemy.orm import Mapped, mapped_column, DeclarativeBase, relationship
 from sqlalchemy.ext.asyncio import AsyncAttrs, async_sessionmaker, create_async_engine
 
+load_dotenv()
 
 DATABASE_URL = os.getenv('DATABASE_URL')
 if DATABASE_URL is None:

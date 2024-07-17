@@ -3,11 +3,8 @@ from aiogram.types import Message, CallbackQuery
 from aiogram.filters import CommandStart, Command
 
 from app.db.requests import set_user
-# from middlewares import BaseMiddleware
 
 user = Router()
-
-# user.message.middleware(BaseMiddleware())
 
 @user.message(CommandStart())
 async def cmd_start(message: Message):
