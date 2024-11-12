@@ -1,4 +1,4 @@
-APP := bot.py
+APP := app.py
 VENV := .venv
 ACTIVATE := source $(VENV)/bin/activate
 PYTHON := $(VENV)/bin/python
