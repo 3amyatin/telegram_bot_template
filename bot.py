@@ -1,7 +1,8 @@
-# https://docs.aiogram.dev/en/dev-3.x/api/index.html
+# Backend: /Users/digy/dev/yachtsam_bot/
+# Frontend: https://t.me/sailgpt_bot
 
 import os
-import asyncio
+import asyncio  # https://docs.aiogram.dev/en/dev-3.x/api/index.html
 import logging
 
 from dotenv import load_dotenv
