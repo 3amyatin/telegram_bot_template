@@ -10,7 +10,6 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
-#from handlers import start, test, questions
 from app.user import user
 from app.admin import admin
 from app.handlers import router

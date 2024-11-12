@@ -1,4 +1,4 @@
+python-dotenv
 aiogram
 sqlalchemy[asyncio]
 asyncpg
-python-dotenv
